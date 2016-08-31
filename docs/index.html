@@ -19,13 +19,13 @@ $(function() {
   var active = 0;
   function clignote() {
     if (active==0) {
-      $('body').css({'background': 'url(oiseau-koala.png)'});
+      $('body').css({'background-image': 'oiseau-koala.png'});
     }
     if (active==1) {
-      $('body').css({'background': 'url(oiseau-koala.png)'});
+      $('body').css({'background-image': 'oiseau-koala.png'});
     }
-    if (active==1) {
-      $('body').css({'background': 'url(oiseau-koala.png)'});
+    if (active==2) {
+      $('body').css({'background-image': 'oiseau-koala.png'});
     }
     active = (active+1)%3;
     setTimeout(clignote,2000);
