@@ -2,4 +2,5 @@ body {
   background: url('oiseau-koala.png');
   background-repeat: no-repeat;
   background-size: cover;
+  font-size: 40pt;
 }
