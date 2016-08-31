@@ -2,6 +2,7 @@ body {
   background: url('oiseau-koala.png');
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 1000px;
 }
 
 h1 {
