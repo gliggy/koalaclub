@@ -1,7 +1,7 @@
 <html>
 <head>
   <title> Koala Club </title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="docs/style.css" rel="stylesheet" type="text/css" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
@@ -27,13 +27,13 @@ $(function() {
   var active = 0;
   function clignote() {
     if (active==0) {
-      $('body').css({'background-image': "url('oiseau-koala.png')"});
+      $('body').css({'background-image': "url('images/oiseau-koala.png')"});
     }
     if (active==1) {
-      $('body').css({'background-image': "url('image1 (1).png')"});
+      $('body').css({'background-image': "url('images/image1 (1).png')"});
     }
     if (active==2) {
-      $('body').css({'background-image': "url('koala in the night.png')"});
+      $('body').css({'background-image': "url('images/koala in the night.png')"});
     }
     active = (active+1)%3;
     setTimeout(clignote,4000);
